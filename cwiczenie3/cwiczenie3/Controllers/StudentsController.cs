@@ -47,7 +47,7 @@ namespace cwiczenie3.Controllers
 
         [HttpPut("{id}")]
         public IActionResult UpdateStudent() {
-            return Ok("Aktualizacja dokonczona");
+            return Ok("Aktualizacja dokończona");
         }
         
         [HttpDelete("{id}")]
